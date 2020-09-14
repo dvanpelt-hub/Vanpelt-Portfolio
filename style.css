@@ -1,0 +1,58 @@
+.center-text {
+  text-align: center;
+  font-family: monospace;
+}
+/*Red layout for main container*/
+.wrapper {
+  background: rgba(65, 65, 65, 0.705);
+  text-align: justify;
+  color: white;
+  font-family: monospace;
+  margin: auto;
+  width: 400px;
+  padding: 50px;
+  height: auto;
+  border-radius: 5px;
+}
+/*buttons for contact me links*/
+.btn {
+  display: inline-block;
+  border: 10px solid rgba(255, 255, 255, 0);
+  font-size: 12px;
+  text-align: center;
+  margin: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+/*added margin for spacing between image and main container*/
+.group img {
+  margin-bottom: 50px;
+}
+
+/*when hovering over contact me links, buttons turn blue*/
+.btn:hover {
+  background-color: rgb(255, 238, 0);
+}
+
+.line-space {
+  line-height: 20px;
+}
+
+.list-inside li {
+  list-style-position: inside;
+}
+
+body {
+  background-color: yellow;
+}
+
+.round {
+  border-radius: 1%;
+}
